@@ -22,3 +22,15 @@ Folder structure of the repository:
             - After completion of the cycle, the script checks for annotations in the updated_anno folder under pizza data and if new annotations are available, resumes the code flow.
              -The mAP values are saved under the eval folder.
  
+ 
+ Environment Installations:
+            visdom
+            opencv-python
+            pycocotools
+            scikit-image
+            scikit-learn
+            tensorboard
+            tqdm
+ pytorch --version :1.4.0
+ cuda : 10.1
+ 
