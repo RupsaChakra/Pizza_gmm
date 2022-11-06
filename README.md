@@ -37,7 +37,8 @@ Folder structure of the repository:
  cuda : 10.1
  
  
-Training: 
- # Active learning
-CUDA_VISIBLE_DEVICES=<GPU_ID> python train_ssd_gmm_active_learining.py
+#Training: 
+
+            -Active learning
+            CUDA_VISIBLE_DEVICES=<GPU_ID> python train_ssd_gmm_active_learining.py
  
