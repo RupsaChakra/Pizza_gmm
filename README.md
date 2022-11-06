@@ -24,13 +24,20 @@ Folder structure of the repository:
  
  
  Environment Installations:
-            visdom
-            opencv-python
-            pycocotools
-            scikit-image
-            scikit-learn
-            tensorboard
-            tqdm
+            
+            -visdom
+            -opencv-python
+            -pycocotools
+            -scikit-image
+            -scikit-learn
+            -tensorboard
+            -tqdm
  pytorch --version :1.4.0
+ 
  cuda : 10.1
+ 
+ 
+Training: 
+ # Active learning
+CUDA_VISIBLE_DEVICES=<GPU_ID> python train_ssd_gmm_active_learining.py
  
